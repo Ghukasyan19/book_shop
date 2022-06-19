@@ -6,7 +6,7 @@ class BookController{
         const {title, author, price, category} = req.body;
         await BookService.createBook(title, author, price, category);
 
-        res.status(201).send(`Book successfully created`);
+        res.status(201).send(`Book successfully created!`);
     }
 }
 module.exports = BookController;
