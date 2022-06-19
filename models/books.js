@@ -1,6 +1,7 @@
-const {Model, DataType} = require('sequelize');
+const {Model} = require('sequelize');
+const {Datatype} = require('sequelize');
 const connection = require('../db/connection')
-//module.exports = (sequelize, DataTypes) => {
+
   class books extends Model {
     /**
      * Helper method for defining associations.
