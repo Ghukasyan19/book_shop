@@ -9,4 +9,5 @@ const config = {
     DB_PASSWORD: process.env.DB_PASSWORD,
 };
 object.freeze(config);
+
 module.exports = config;

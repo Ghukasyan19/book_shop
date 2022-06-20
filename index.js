@@ -4,9 +4,6 @@ const sequelize = require('./db/connection');
 const config = require('./configs/config');
 const routes =require('./routes/index')
 
-
-
-
 const app = express();
 const PORT = config.PORT;
 
